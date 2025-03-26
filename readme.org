@@ -1,4 +1,10 @@
 #+TITLE: IUCN Conservation Data Analysis
 #+AUTHOR: Manish Gadhvi
 
+The aim of this project is to perform analysis on conservation data from the [[https://www.iucnredlist.org/][IUCN]]. The IUCN publishes data in relation to animal sightings. This culminates into their Red List which presents how vulnerable animals are based on a scale
+
+[[https://nrl.iucnredlist.org/assets/category-scale/category-scale_cr-b096635dc39417c4c50ad812d0412ed8ba20924c0878113126127a6363507aff.svg]]
+
+
+
 
