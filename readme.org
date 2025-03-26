@@ -3,7 +3,7 @@
 
 The aim of this project is to perform analysis on conservation data from the [[https://www.iucnredlist.org/][IUCN]]. The IUCN publishes data in relation to animal sightings. This culminates into their Red List which presents how vulnerable animals are based on a scale
 
-[[https://nc.iucnredlist.org/redlist/content/images/content_Red_List_Scale_CR_01.jpg]]
+[[./images/Red_List_Scale.jpg]]
 
 They have kindly made their [[https://www.iucnredlist.org/resources/spatial-data-download][observation spatial data]] available in the following formats:
 
@@ -17,7 +17,12 @@ They have kindly made their [[https://www.iucnredlist.org/resources/spatial-data
 
 #+end_quote
 
-* Data Filtering
+* Tooling
+Initial analysis will be done using QGIS. This will then be automated using GeoPandas
 
-This project is concerned with data on land mammal sightings. The data set contains around 12,000 records. This project is only concerned with sighting data in the United Kingdom between 2020 and 2024 inclusive
+* Data Filtering
+The data set contains around 12,000 records. This project is only concerned with sighting data in the United Kingdom between 2020 and 2024 inclusive.
+
+* Setup
+The initial base layer for the project was created using [[https://www.openstreetmap.org][Open Street Maps]]. The IUCN shapefiles were then filtered based on the year and a new GeoPackage was created based on the filter
 
