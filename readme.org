@@ -3,8 +3,21 @@
 
 The aim of this project is to perform analysis on conservation data from the [[https://www.iucnredlist.org/][IUCN]]. The IUCN publishes data in relation to animal sightings. This culminates into their Red List which presents how vulnerable animals are based on a scale
 
-[[https://nrl.iucnredlist.org/assets/category-scale/category-scale_cr-b096635dc39417c4c50ad812d0412ed8ba20924c0878113126127a6363507aff.svg]]
+[[https://nc.iucnredlist.org/redlist/content/images/content_Red_List_Scale_CR_01.jpg]]
 
+They have kindly made their [[https://www.iucnredlist.org/resources/spatial-data-download][observation spatial data]] available in the following formats:
 
+#+begin_quote
 
+1. Polygons in Esri shapefile format, containing the known range of each species. Note that sometimes the range is incomplete.
+
+2. Points as a csv (comma separated value) table including the latitude and longitude of each observation.
+
+3. Freshwater HydroBASIN Tables in csv format. Freshwater species are mapped to pre-defined river/lake catchment units called HydroBASINS. It is widely accepted that the river/lake catchment is the most appropriate management unit for inland waters. These species range tables contain the HydroBASINS ID field which can be joined to the HydroBASINS spatial data. 
+
+#+end_quote
+
+* Data Filtering
+
+This project is concerned with data on land mammal sightings. The data set contains around 12,000 records. This project is only concerned with sighting data in the United Kingdom between 2020 and 2024 inclusive
 
