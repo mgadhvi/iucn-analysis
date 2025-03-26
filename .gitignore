@@ -1,0 +1,54 @@
+# QGIS
+# Ignore QGIS project files
+*.qgs
+*.qgz
+
+# Ignore QGIS auxiliary files
+*.qgis2
+*.qgis3
+*.sqlite
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.qix
+*.lyr
+*.lyrx
+*.map
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore cache files
+*.cache
+*.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Emacs
+# Ignore Emacs backup files
+*~
+.#*
+*.elc
+
+# Ignore auto-save files
+# These files start with # and end with #
+# They are created when you edit a file
+# and are deleted when you save the file
+# or when Emacs is closed
+# They are usually hidden
+# Uncomment the following line if you want to ignore them
+#*#
+
+# Ignore the Emacs configuration directory
+.emacs.d/
+.elpa/
+
+# Ignore other temporary files
+*.log
